@@ -1,0 +1,268 @@
+.sub-head {
+	font-family: "Inter", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+.round-img {
+	width: 200px; /* Adjust size as needed */
+	height: 200px; /* Ensure it's a perfect circle */
+	border-radius: 50%; /* Makes it round */
+	object-fit: cover;
+	margin-bottom: 30px;
+	background-color: #e0dfdc;
+}
+
+.text-body-emphasis {
+	font-size: 50px;
+	font-family: "Inter", serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	margin-bottom: 10px;
+}
+
+.inter-text {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+}
+
+.NM {
+	color: #212529;
+	font-family: "Ledger", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3rem; /* Adjust size as needed */
+}
+
+.three-things {
+	color: #212529;
+}
+.h-one {
+	font-family: "Ledger", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 4rem; 
+}
+
+.about-me {
+	font-family: "Ledger", serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 3rem; 
+
+}
+
+@media (min-width: 400px) and (max-width: 992px) {
+	/* Center the entire container */
+	.container, .container.col-xxl-8 {
+	  text-align: center;
+	  padding-left: 1rem;
+	  padding-right: 1rem;
+	}
+  
+	/* Hero Section */
+	.row.flex-lg-row-reverse {
+	  flex-direction: column !important;
+	  align-items: center;
+	  justify-content: center;
+	}
+  
+	.col-10.col-sm-8.col-lg-6 {
+	  max-width: 100%;
+	  margin-bottom: 1rem;
+	  text-align: center;
+	}
+  
+	.col-lg-6 {
+	  text-align: center;
+	}
+  
+	.col-lg-6 h1 {
+	  text-align: center;
+	}
+  
+	/* Section Titles */
+	.section-title {
+	  font-size: 1.5rem;
+	  text-align: center;
+	  margin-bottom: 1.5rem;
+	}
+  
+	/* Education, Work Experience, and Skills Section */
+	.list-group-item {
+	  font-size: 1rem;
+	  text-align: center;
+	}
+  
+	.card-title {
+	  font-size: 1.25rem;
+	  text-align: center;
+	}
+  
+	.card-body {
+	  padding: 1rem;
+	  text-align: center;
+	}
+  
+	/* Skills Section - Make badges evenly distributed */
+	.skills-container {
+	  display: grid;
+	  grid-template-columns: repeat(4, 1fr);  /* 4 equal-width columns */
+	  gap: 1rem;
+	  justify-items: center;
+	  margin-top: 1rem;
+	}
+  
+	.badge.bg-primary {
+	  font-size: 0.9rem;
+	  padding: 0.5rem;
+	  width: 100%;
+	  text-align: center;
+	  display: block;
+	}
+  
+	/* About Me Section */
+	.about-me {
+	  font-size: 1.75rem;
+	  text-align: center;
+	}
+  
+	.about-me p {
+	  font-size: 1rem;
+	  text-align: center;
+	}
+  
+	/* Contact Section */
+	.list-unstyled li {
+	  font-size: 1rem;
+	  text-align: center;
+	}
+  
+	/* Footer */
+	footer {
+	  padding: 1rem;
+	  text-align: center;
+	}
+  
+	/* Ensure all images are centered */
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+  }
+  
+  @media (min-width: 200px) and (max-width: 400px) {
+	/* Center the entire container */
+	.container, .container.col-xxl-8 {
+	  text-align: center;
+	  padding-left: 1rem;
+	  padding-right: 1rem;
+	}
+  
+	/* Hero Section */
+	.row.flex-lg-row-reverse {
+	  flex-direction: column !important;
+	  align-items: center;
+	  justify-content: center;
+	}
+  
+	.col-10.col-sm-8.col-lg-6 {
+	  max-width: 100%;
+	  margin-bottom: 1rem;
+	  text-align: center;
+	}
+  
+	.col-lg-6 {
+	  text-align: center;
+	}
+  
+	.col-lg-6 h1 {
+	  text-align: center;
+	  font-size: 1.75rem; /* Slightly bigger h1 */
+	}
+  
+	/* Section Titles */
+	.section-title {
+	  font-size: 1.2rem; /* Smaller section titles */
+	  text-align: center;
+	  margin-bottom: 1.5rem;
+	}
+  
+	/* NM heading */
+	.NM {
+	  font-size: 1.1rem; /* Smaller NM heading */
+	}
+  
+	/* Education, Work Experience, and Skills Section */
+	.list-group-item {
+	  font-size: 0.9rem; /* Smaller font size for list items */
+	  text-align: center;
+	}
+  
+	.card-title {
+	  font-size: 1.1rem; /* Slightly smaller font size for card titles */
+	  text-align: center;
+	}
+  
+	.card-body {
+	  padding: 1rem;
+	  text-align: center;
+	}
+  
+	/* Skills Section - Make badges evenly distributed */
+	.skills-container {
+	  display: grid;
+	  grid-template-columns: repeat(2, 1fr);  /* Reduce to 2 columns for small screens */
+	  gap: 1rem;
+	  justify-items: center;
+	  margin-top: 1rem;
+	}
+  
+	.badge.bg-primary {
+	  font-size: 0.8rem; /* Slightly smaller font size for badges */
+	  padding: 0.5rem;
+	  width: 100%;
+	  text-align: center;
+	  display: block;
+	}
+  
+	/* About Me Section */
+	.about-me {
+	  font-size: 1.5rem; /* Slightly smaller font size for 'about me' section */
+	  text-align: center;
+	}
+  
+	.about-me p {
+	  font-size: 0.9rem; /* Smaller font size for 'about me' paragraph */
+	  text-align: center;
+	}
+  
+	/* Contact Section */
+	.list-unstyled li {
+	  font-size: 0.9rem; /* Smaller font size for contact items */
+	  text-align: center;
+	}
+  
+	/* Footer */
+	footer {
+	  padding: 1rem;
+	  text-align: center;
+	  font-size: 0.8rem; /* Smaller footer text */
+	}
+  
+	/* Ensure all images are centered */
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	.col-lg-8.mx-auto.fs-5.text-muted.inter-text {
+		text-align: justify; /* Justify text on both sides */
+		font-size: 0.85rem; /* Slightly smaller font size */
+	  }
+  }
+  
+  
+  
